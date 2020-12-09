@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+h2{
+	font-family: 'Gruppo', cursive;
+}
+ul{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-color: #008080 /*teal*/;
+}
+#wrapper{
+	background-color: white;
+	margin: 50px auto;
+	width: 95%;
+}
+h1{
+	color: maroon;
+}
+nav{
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 8px;
+	margin: 0 auto;
+}
+nav li{
+	display: inline;
+	padding: 8px 10px;
+	border-radius: 50px;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a: link{
+	color: purple;
+}
+nav a: visited{
+	color: purple;
+}
+nav a: hover{
+	color: orange;
+}
+nav a: active{
+	color: blue;
+}
+footer{
+	text-align: center;
+}
+h1{
+	font-size: 3em;
+}
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+.mobile{
+	display: none;
+}
+
+@media only screen and (max-width: 400px){
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+}
